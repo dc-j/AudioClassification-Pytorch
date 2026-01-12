@@ -61,6 +61,6 @@ dot.edge('Read', 'End')
 
 # Render the graph
 output_path = '/workspace/docs/visual_servoing_flow'
-dot.render(output_path, format='png', cleanup=True)
+dot.render(output_path, format='svg', cleanup=True)
 
-print(f"Graph generated at {output_path}.png")
+print(f"Graph generated at {output_path}.svg")
