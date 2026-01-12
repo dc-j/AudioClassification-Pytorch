@@ -1,7 +1,7 @@
 import graphviz
 
 dot = graphviz.Digraph('visual_servoing', comment='Visual Servoing Flow')
-dot.attr(rankdir='TB', size='10,10', fontname='SimSun')
+dot.attr(rankdir='LR', size='10,10', fontname='SimSun')
 
 # Define nodes with styling
 dot.attr('node', shape='ellipse', style='filled', fillcolor='#e1f5fe', fontname='SimSun')
