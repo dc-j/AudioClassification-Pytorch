@@ -1,0 +1,38 @@
+.stat-card {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: rgba(6, 30, 65, 0.6);
+  border-left: 2px solid var(--accent-cyan);
+  border-radius: 2px;
+}
+
+.stat-card-icon {
+  font-size: 24px;
+  opacity: 0.9;
+}
+
+.stat-card-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-card-value {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-variant-numeric: tabular-nums;
+}
+
+.stat-card-unit {
+  font-size: 12px;
+  margin-left: 2px;
+  font-weight: 400;
+}
+
+.stat-card-label {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-top: 2px;
+}

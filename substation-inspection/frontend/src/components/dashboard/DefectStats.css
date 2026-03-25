@@ -1,0 +1,53 @@
+.defect-stats-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.defect-chart-wrap {
+  position: relative;
+}
+
+.defect-center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.defect-total-val {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--accent-cyan);
+}
+
+.defect-legend {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.defect-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.defect-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.defect-type {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.defect-count {
+  font-size: 14px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}

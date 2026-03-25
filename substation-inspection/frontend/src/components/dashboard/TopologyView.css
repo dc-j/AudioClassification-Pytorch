@@ -1,0 +1,142 @@
+.topology-panel {
+  height: 100%;
+}
+
+.topology-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 280px;
+}
+
+.topology-lines {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 80%;
+}
+
+.topology-nodes {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 80%;
+}
+
+.topology-node {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.topology-node:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.node-icon {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-bus {
+  width: 120px;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, var(--accent-cyan), transparent);
+  border-radius: 2px;
+  box-shadow: 0 0 8px rgba(34, 211, 238, 0.5);
+}
+
+.icon-breaker {
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--accent-green);
+  border-radius: 50%;
+  background: rgba(16, 185, 129, 0.2);
+  box-shadow: 0 0 6px rgba(16, 185, 129, 0.5);
+}
+
+.icon-transformer {
+  width: 32px;
+  height: 32px;
+  border: 2px solid var(--accent-cyan);
+  border-radius: 4px;
+  background: rgba(14, 165, 233, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--accent-cyan);
+}
+
+.icon-compensator {
+  width: 28px;
+  height: 28px;
+  border: 2px solid var(--accent-yellow);
+  border-radius: 50%;
+  background: rgba(245, 158, 11, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--accent-yellow);
+}
+
+.icon-pt {
+  width: 28px;
+  height: 28px;
+  border: 2px solid var(--chart-blue);
+  border-radius: 4px;
+  background: rgba(32, 128, 240, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--chart-blue);
+}
+
+.node-label {
+  font-size: 10px;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+.topology-progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 8px 0;
+}
+
+.progress-label {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+  text-align: center;
+}
+
+.progress-bar {
+  height: 6px;
+  background: rgba(32, 128, 240, 0.15);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-cyan), var(--chart-blue));
+  border-radius: 3px;
+  transition: width 0.6s ease;
+  box-shadow: 0 0 6px rgba(34, 211, 238, 0.4);
+}

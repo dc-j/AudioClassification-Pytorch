@@ -1,0 +1,44 @@
+.dashboard {
+  display: grid;
+  grid-template-columns: 260px 1fr 320px;
+  gap: 8px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.dashboard-left {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  overflow: hidden;
+}
+
+.dashboard-center {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  overflow: hidden;
+}
+
+.dashboard-center-top {
+  flex: 1;
+  min-height: 0;
+}
+
+.dashboard-center-bottom {
+  height: 180px;
+  flex-shrink: 0;
+}
+
+.dashboard-right {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  overflow: hidden;
+}
+
+.dashboard-left > *,
+.dashboard-right > * {
+  flex: 1;
+  min-height: 0;
+}

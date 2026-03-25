@@ -1,0 +1,47 @@
+.device-status-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.device-status-item {
+  padding: 8px;
+  background: rgba(6, 30, 65, 0.6);
+  border: 1px solid rgba(32, 128, 240, 0.15);
+  border-radius: 2px;
+}
+
+.device-status-name {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+  text-align: center;
+}
+
+.device-status-row {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.device-status-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.device-status-val {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--accent-cyan);
+  font-variant-numeric: tabular-nums;
+}
+
+.device-status-cell.online .device-status-val {
+  color: var(--accent-green);
+}
+
+.device-status-lbl {
+  font-size: 11px;
+  color: var(--text-muted);
+}

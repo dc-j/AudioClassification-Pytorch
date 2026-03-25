@@ -1,0 +1,37 @@
+.patrol-stats-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.patrol-stats-chart {
+  flex-shrink: 0;
+}
+
+.patrol-stats-legend {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  flex: 1;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  background: rgba(6, 30, 65, 0.5);
+  border-radius: 2px;
+}
+
+.legend-label {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.legend-value {
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: auto;
+  font-variant-numeric: tabular-nums;
+}
