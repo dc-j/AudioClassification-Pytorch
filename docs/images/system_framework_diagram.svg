@@ -135,7 +135,7 @@
 
   <path class="arrow" d="M345 910 V1035 H380" />
   <path class="arrow" d="M900 910 V1010" />
-  <path class="arrow" d="M1455 910 V1035 H1140" />
+  <path class="arrow" d="M1455 910 V970 H1300 V1010" />
 
   <text class="note-text" x="900" y="1098" text-anchor="middle">&#x6D41;&#x7A0B;&#x95ED;&#x73AF;&#xFF1A;&#x5E95;&#x76D8;&#x5BFC;&#x822A;&#x5230;&#x70B9; -> &#x4E91;&#x53F0;&#x5E7F;&#x89D2;&#x7EA0;&#x504F; -> &#x957F;&#x7126;ROI&#x5BF9;&#x7126; -> &#x900F;&#x89C6;&#x6821;&#x6B63;&#x4E0E;&#x6307;&#x9488;&#x8BFB;&#x6570;</text>
 </svg>
