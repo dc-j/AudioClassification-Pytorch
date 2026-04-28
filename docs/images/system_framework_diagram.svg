@@ -15,6 +15,7 @@
       .box-yellow { fill: #fff7e6; stroke: #a06a00; stroke-width: 2; }
       .box-purple { fill: #f3effc; stroke: #6d5799; stroke-width: 2; }
       .box-red { fill: #fceeed; stroke: #9b4a45; stroke-width: 2; }
+      .layer-title, .box-title, .box-text, .small-text, .note-text { text-anchor: middle; }
       .arrow { fill: none; stroke: #294b6d; stroke-width: 2.5; marker-end: url(#arrowhead); }
       .dash { fill: none; stroke: #73849a; stroke-width: 2; stroke-dasharray: 8 6; }
     </style>
@@ -29,27 +30,27 @@
   <!-- Hardware layer -->
   <rect class="layer" x="60" y="100" width="1680" height="235" />
   <rect class="layer-head" x="60" y="100" width="1680" height="48" />
-  <text class="layer-title" x="90" y="132">1. &#x786C;&#x4EF6;&#x6267;&#x884C;&#x5C42;</text>
+  <text class="layer-title" x="900" y="132">1. &#x786C;&#x4EF6;&#x6267;&#x884C;&#x5C42;</text>
 
   <rect class="box-blue" x="95" y="175" width="320" height="120" />
-  <text class="box-title" x="255" y="207" text-anchor="middle">&#x56DB;&#x8DB3;&#x673A;&#x5668;&#x4EBA;&#x5E95;&#x76D8;</text>
-  <text class="box-text" x="120" y="240">IMU / 3D&#x6FC0;&#x5149;&#x96F7;&#x8FBE; / &#x6DF1;&#x5EA6;&#x76F8;&#x673A;</text>
-  <text class="box-text" x="120" y="270">&#x5EFA;&#x56FE;&#x3001;&#x5B9A;&#x4F4D;&#x3001;&#x907F;&#x969C;&#x6267;&#x884C;&#x4E3B;&#x4F53;</text>
+  <text class="box-title" x="255" y="207">&#x56DB;&#x8DB3;&#x673A;&#x5668;&#x4EBA;&#x5E95;&#x76D8;</text>
+  <text class="box-text" x="255" y="240">IMU / 3D&#x6FC0;&#x5149;&#x96F7;&#x8FBE; / &#x6DF1;&#x5EA6;&#x76F8;&#x673A;</text>
+  <text class="box-text" x="255" y="270">&#x5EFA;&#x56FE;&#x3001;&#x5B9A;&#x4F4D;&#x3001;&#x907F;&#x969C;&#x6267;&#x884C;&#x4E3B;&#x4F53;</text>
 
   <rect class="box-blue" x="470" y="175" width="320" height="120" />
-  <text class="box-title" x="630" y="207" text-anchor="middle">&#x80CC;&#x90E8;&#x51CF;&#x9707;&#x8D1F;&#x8F7D;&#x5E73;&#x53F0;</text>
-  <text class="box-text" x="500" y="240">&#x627F;&#x8F7D;&#x4E91;&#x53F0;&#x76F8;&#x673A;</text>
-  <text class="box-text" x="500" y="270">&#x964D;&#x4F4E;&#x6B65;&#x6001;&#x632F;&#x52A8;&#x5F71;&#x54CD;</text>
+  <text class="box-title" x="630" y="207">&#x80CC;&#x90E8;&#x51CF;&#x9707;&#x8D1F;&#x8F7D;&#x5E73;&#x53F0;</text>
+  <text class="box-text" x="630" y="240">&#x627F;&#x8F7D;&#x4E91;&#x53F0;&#x76F8;&#x673A;</text>
+  <text class="box-text" x="630" y="270">&#x964D;&#x4F4E;&#x6B65;&#x6001;&#x632F;&#x52A8;&#x5F71;&#x54CD;</text>
 
   <rect class="box-blue" x="845" y="175" width="360" height="120" />
-  <text class="box-title" x="1025" y="207" text-anchor="middle">&#x9AD8;&#x6E05;&#x53D8;&#x7126;&#x4E91;&#x53F0;&#x76F8;&#x673A;</text>
-  <text class="box-text" x="875" y="240">Pan / Tilt &#x53CC;&#x8F74;&#x72EC;&#x7ACB;&#x65CB;&#x8F6C;</text>
-  <text class="box-text" x="875" y="270">Zoom &#x8FDE;&#x7EED;&#x5149;&#x5B66;&#x53D8;&#x7126;&#x955C;&#x5934;</text>
+  <text class="box-title" x="1025" y="207">&#x9AD8;&#x6E05;&#x53D8;&#x7126;&#x4E91;&#x53F0;&#x76F8;&#x673A;</text>
+  <text class="box-text" x="1025" y="240">Pan / Tilt &#x53CC;&#x8F74;&#x72EC;&#x7ACB;&#x65CB;&#x8F6C;</text>
+  <text class="box-text" x="1025" y="270">Zoom &#x8FDE;&#x7EED;&#x5149;&#x5B66;&#x53D8;&#x7126;&#x955C;&#x5934;</text>
 
   <rect class="box-blue" x="1260" y="175" width="400" height="120" />
-  <text class="box-title" x="1460" y="207" text-anchor="middle">GPU&#x8FB9;&#x7F18;&#x5DE5;&#x63A7;&#x673A;</text>
-  <text class="box-text" x="1290" y="240">&#x90E8;&#x7F72;&#x68C0;&#x6D4B;&#x3001;&#x5BF9;&#x7126;&#x3001;&#x8BFB;&#x6570;&#x7B97;&#x6CD5;</text>
-  <text class="box-text" x="1290" y="270">&#x5343;&#x5146;&#x4EE5;&#x592A;&#x7F51;&#x4F4E;&#x5EF6;&#x8FDF;&#x901A;&#x4FE1;</text>
+  <text class="box-title" x="1460" y="207">GPU&#x8FB9;&#x7F18;&#x5DE5;&#x63A7;&#x673A;</text>
+  <text class="box-text" x="1460" y="240">&#x90E8;&#x7F72;&#x68C0;&#x6D4B;&#x3001;&#x5BF9;&#x7126;&#x3001;&#x8BFB;&#x6570;&#x7B97;&#x6CD5;</text>
+  <text class="box-text" x="1460" y="270">&#x5343;&#x5146;&#x4EE5;&#x592A;&#x7F51;&#x4F4E;&#x5EF6;&#x8FDF;&#x901A;&#x4FE1;</text>
 
   <path class="arrow" d="M415 235 H470" />
   <path class="arrow" d="M790 235 H845" />
@@ -59,32 +60,32 @@
   <!-- Perception and control layer -->
   <rect class="layer" x="60" y="370" width="1680" height="230" />
   <rect class="layer-head" x="60" y="370" width="1680" height="48" />
-  <text class="layer-title" x="90" y="402">2. &#x611F;&#x77E5;&#x4E0E;&#x8FD0;&#x52A8;&#x63A7;&#x5236;&#x5C42;</text>
+  <text class="layer-title" x="900" y="402">2. &#x611F;&#x77E5;&#x4E0E;&#x8FD0;&#x52A8;&#x63A7;&#x5236;&#x5C42;</text>
 
   <rect class="box-green" x="95" y="450" width="250" height="105" />
-  <text class="box-title" x="220" y="482" text-anchor="middle">&#x4E09;&#x7EF4;&#x5EFA;&#x56FE;</text>
-  <text class="small-text" x="120" y="512">&#x73AF;&#x5883;&#x611F;&#x77E5;</text>
-  <text class="small-text" x="120" y="538">&#x9AD8;&#x7CBE;&#x5EA6;&#x5B9A;&#x4F4D;</text>
+  <text class="box-title" x="220" y="482">&#x4E09;&#x7EF4;&#x5EFA;&#x56FE;</text>
+  <text class="small-text" x="220" y="512">&#x73AF;&#x5883;&#x611F;&#x77E5;</text>
+  <text class="small-text" x="220" y="538">&#x9AD8;&#x7CBE;&#x5EA6;&#x5B9A;&#x4F4D;</text>
 
   <rect class="box-green" x="395" y="450" width="250" height="105" />
-  <text class="box-title" x="520" y="482" text-anchor="middle">&#x5168;&#x5C40;&#x8DEF;&#x5F84;&#x89C4;&#x5212;</text>
-  <text class="small-text" x="420" y="512">&#x5168;&#x5C40;&#x5BFC;&#x822A;</text>
-  <text class="small-text" x="420" y="538">&#x8F93;&#x51FA;&#x5DE1;&#x68C0;&#x8DEF;&#x5F84;</text>
+  <text class="box-title" x="520" y="482">&#x5168;&#x5C40;&#x8DEF;&#x5F84;&#x89C4;&#x5212;</text>
+  <text class="small-text" x="520" y="512">&#x5168;&#x5C40;&#x5BFC;&#x822A;</text>
+  <text class="small-text" x="520" y="538">&#x8F93;&#x51FA;&#x5DE1;&#x68C0;&#x8DEF;&#x5F84;</text>
 
   <rect class="box-green" x="695" y="450" width="250" height="105" />
-  <text class="box-title" x="820" y="482" text-anchor="middle">&#x5C40;&#x90E8;&#x907F;&#x969C;</text>
-  <text class="small-text" x="720" y="512">&#x590D;&#x6742;&#x5730;&#x5F62;</text>
-  <text class="small-text" x="720" y="538">&#x5B89;&#x5168;&#x901A;&#x8FC7;&#x969C;&#x788D;&#x7269;</text>
+  <text class="box-title" x="820" y="482">&#x5C40;&#x90E8;&#x907F;&#x969C;</text>
+  <text class="small-text" x="820" y="512">&#x590D;&#x6742;&#x5730;&#x5F62;</text>
+  <text class="small-text" x="820" y="538">&#x5B89;&#x5168;&#x901A;&#x8FC7;&#x969C;&#x788D;&#x7269;</text>
 
   <rect class="box-green" x="995" y="450" width="250" height="105" />
-  <text class="box-title" x="1120" y="482" text-anchor="middle">&#x5230;&#x8FBE;&#x5DE1;&#x68C0;&#x70B9;</text>
-  <text class="small-text" x="1020" y="512">&#x6267;&#x884C;&#x505C;&#x6B65;</text>
-  <text class="small-text" x="1020" y="538">&#x4EA7;&#x751F;&#x4F4D;&#x59FF;&#x6270;&#x52A8;</text>
+  <text class="box-title" x="1120" y="482">&#x5230;&#x8FBE;&#x5DE1;&#x68C0;&#x70B9;</text>
+  <text class="small-text" x="1120" y="512">&#x6267;&#x884C;&#x505C;&#x6B65;</text>
+  <text class="small-text" x="1120" y="538">&#x4EA7;&#x751F;&#x4F4D;&#x59FF;&#x6270;&#x52A8;</text>
 
   <rect class="box-green" x="1295" y="450" width="350" height="105" />
-  <text class="box-title" x="1470" y="482" text-anchor="middle">&#x4E91;&#x53F0;&#x9884;&#x7F6E;&#x4F4D;&#x590D;&#x4F4D;</text>
-  <text class="small-text" x="1325" y="512">&#x7ECF;&#x9A8C;&#x89D2;&#x5EA6; + &#x6700;&#x5E7F;&#x89D2;&#x7AEF;</text>
-  <text class="small-text" x="1325" y="538">&#x91C7;&#x96C6;&#x5DE1;&#x68C0;&#x70B9;&#x5168;&#x666F;&#x56FE;&#x50CF;</text>
+  <text class="box-title" x="1470" y="482">&#x4E91;&#x53F0;&#x9884;&#x7F6E;&#x4F4D;&#x590D;&#x4F4D;</text>
+  <text class="small-text" x="1470" y="512">&#x7ECF;&#x9A8C;&#x89D2;&#x5EA6; + &#x6700;&#x5E7F;&#x89D2;&#x7AEF;</text>
+  <text class="small-text" x="1470" y="538">&#x91C7;&#x96C6;&#x5DE1;&#x68C0;&#x70B9;&#x5168;&#x666F;&#x56FE;&#x50CF;</text>
 
   <path class="arrow" d="M345 502 H395" />
   <path class="arrow" d="M645 502 H695" />
@@ -95,28 +96,28 @@
   <!-- Algorithm layer -->
   <rect class="layer" x="60" y="640" width="1680" height="320" />
   <rect class="layer-head" x="60" y="640" width="1680" height="48" />
-  <text class="layer-title" x="90" y="672">3. &#x8F6F;&#x4EF6;&#x7B97;&#x6CD5;&#x5904;&#x7406;&#x5C42;</text>
+  <text class="layer-title" x="900" y="672">3. &#x8F6F;&#x4EF6;&#x7B97;&#x6CD5;&#x5904;&#x7406;&#x5C42;</text>
 
   <rect class="box-yellow" x="95" y="720" width="500" height="190" />
-  <text class="box-title" x="345" y="752" text-anchor="middle">A. &#x5E7F;&#x89D2;&#x7C97;&#x5B9A;&#x4F4D;&#x4E0E;&#x4E91;&#x53F0;&#x7EA0;&#x504F;</text>
-  <text class="small-text" x="125" y="788">&#x6700;&#x5E7F;&#x89D2;&#x56FE;&#x50CF;&#x91C7;&#x96C6;</text>
-  <text class="small-text" x="125" y="818">&#x8F7B;&#x91CF;&#x5316;&#x76EE;&#x6807;&#x68C0;&#x6D4B;&#xFF1A;&#x4EEA;&#x8868;&#x8FB9;&#x754C;&#x6846;</text>
-  <text class="small-text" x="125" y="848">&#x76EE;&#x6807;&#x4E2D;&#x5FC3; - &#x56FE;&#x50CF;&#x4E2D;&#x5FC3; = &#x50CF;&#x7D20;&#x504F;&#x5DEE;</text>
-  <text class="small-text" x="125" y="878">&#x5C0F;&#x5B54;&#x6210;&#x50CF; + &#x4E91;&#x53F0;&#x9006;&#x8FD0;&#x52A8;&#x5B66;&#x89E3;&#x7B97;&#x8865;&#x507F;&#x89D2;</text>
+  <text class="box-title" x="345" y="752">A. &#x5E7F;&#x89D2;&#x7C97;&#x5B9A;&#x4F4D;&#x4E0E;&#x4E91;&#x53F0;&#x7EA0;&#x504F;</text>
+  <text class="small-text" x="345" y="788">&#x6700;&#x5E7F;&#x89D2;&#x56FE;&#x50CF;&#x91C7;&#x96C6;</text>
+  <text class="small-text" x="345" y="818">&#x8F7B;&#x91CF;&#x5316;&#x76EE;&#x6807;&#x68C0;&#x6D4B;&#xFF1A;&#x4EEA;&#x8868;&#x8FB9;&#x754C;&#x6846;</text>
+  <text class="small-text" x="345" y="848">&#x76EE;&#x6807;&#x4E2D;&#x5FC3; - &#x56FE;&#x50CF;&#x4E2D;&#x5FC3; = &#x50CF;&#x7D20;&#x504F;&#x5DEE;</text>
+  <text class="small-text" x="345" y="878">&#x5C0F;&#x5B54;&#x6210;&#x50CF; + &#x4E91;&#x53F0;&#x9006;&#x8FD0;&#x52A8;&#x5B66;&#x89E3;&#x7B97;&#x8865;&#x507F;&#x89D2;</text>
 
   <rect class="box-purple" x="650" y="720" width="500" height="190" />
-  <text class="box-title" x="900" y="752" text-anchor="middle">B. &#x957F;&#x7126;ROI&#x6297;&#x5E72;&#x6270;&#x805A;&#x7126;</text>
-  <text class="small-text" x="680" y="788">&#x5149;&#x5B66;&#x53D8;&#x7126;&#x81F3;&#x9884;&#x8BBE;&#x957F;&#x7126;&#x72B6;&#x6001;</text>
-  <text class="small-text" x="680" y="818">&#x52A8;&#x6001;ROI&#x8DDF;&#x8E2A;&#x4EEA;&#x8868;&#x76D8;&#x68C0;&#x6D4B;&#x6846;</text>
-  <text class="small-text" x="680" y="848">&#x6E05;&#x6670;&#x5EA6;&#x8BC4;&#x4EF7;&#x9650;&#x5236;&#x5728;&#x76D8;&#x9762;&#x533A;&#x57DF;</text>
-  <text class="small-text" x="680" y="878">&#x9A71;&#x52A8;&#x955C;&#x5934;&#x6B65;&#x8FDB;&#x641C;&#x7126;&#xFF0C;&#x6291;&#x5236;&#x80CC;&#x666F;&#x5E72;&#x6270;</text>
+  <text class="box-title" x="900" y="752">B. &#x957F;&#x7126;ROI&#x6297;&#x5E72;&#x6270;&#x805A;&#x7126;</text>
+  <text class="small-text" x="900" y="788">&#x5149;&#x5B66;&#x53D8;&#x7126;&#x81F3;&#x9884;&#x8BBE;&#x957F;&#x7126;&#x72B6;&#x6001;</text>
+  <text class="small-text" x="900" y="818">&#x52A8;&#x6001;ROI&#x8DDF;&#x8E2A;&#x4EEA;&#x8868;&#x76D8;&#x68C0;&#x6D4B;&#x6846;</text>
+  <text class="small-text" x="900" y="848">&#x6E05;&#x6670;&#x5EA6;&#x8BC4;&#x4EF7;&#x9650;&#x5236;&#x5728;&#x76D8;&#x9762;&#x533A;&#x57DF;</text>
+  <text class="small-text" x="900" y="878">&#x9A71;&#x52A8;&#x955C;&#x5934;&#x6B65;&#x8FDB;&#x641C;&#x7126;&#xFF0C;&#x6291;&#x5236;&#x80CC;&#x666F;&#x5E72;&#x6270;</text>
 
   <rect class="box-red" x="1205" y="720" width="500" height="190" />
-  <text class="box-title" x="1455" y="752" text-anchor="middle">C. &#x9AD8;&#x7CBE;&#x5EA6;&#x8868;&#x76D8;&#x6821;&#x6B63;&#x4E0E;&#x8BFB;&#x6570;</text>
-  <text class="small-text" x="1235" y="788">&#x63D0;&#x53D6;&#x5916;&#x56F4;&#x8FB9;&#x7F18;&#x6216;&#x51E0;&#x4F55;&#x7279;&#x5F81;&#x70B9;</text>
-  <text class="small-text" x="1235" y="818">Homography &#x900F;&#x89C6;&#x6821;&#x6B63;&#xFF08;&#x6B63;&#x6295;&#x5F71;&#xFF09;</text>
-  <text class="small-text" x="1235" y="848">&#x6307;&#x9488;/&#x96F6;&#x523B;&#x5EA6;&#x5206;&#x5272; + Hough/PCA&#x62DF;&#x5408;</text>
-  <text class="small-text" x="1235" y="878">&#x89D2;&#x5EA6;-&#x91CF;&#x7A0B;&#x7EBF;&#x6027;&#x6620;&#x5C04;&#x8F93;&#x51FA;&#x8BFB;&#x6570;</text>
+  <text class="box-title" x="1455" y="752">C. &#x9AD8;&#x7CBE;&#x5EA6;&#x8868;&#x76D8;&#x6821;&#x6B63;&#x4E0E;&#x8BFB;&#x6570;</text>
+  <text class="small-text" x="1455" y="788">&#x63D0;&#x53D6;&#x5916;&#x56F4;&#x8FB9;&#x7F18;&#x6216;&#x51E0;&#x4F55;&#x7279;&#x5F81;&#x70B9;</text>
+  <text class="small-text" x="1455" y="818">Homography &#x900F;&#x89C6;&#x6821;&#x6B63;&#xFF08;&#x6B63;&#x6295;&#x5F71;&#xFF09;</text>
+  <text class="small-text" x="1455" y="848">&#x6307;&#x9488;/&#x96F6;&#x523B;&#x5EA6;&#x5206;&#x5272; + Hough/PCA&#x62DF;&#x5408;</text>
+  <text class="small-text" x="1455" y="878">&#x89D2;&#x5EA6;-&#x91CF;&#x7A0B;&#x7EBF;&#x6027;&#x6620;&#x5C04;&#x8F93;&#x51FA;&#x8BFB;&#x6570;</text>
 
   <path class="arrow" d="M595 815 H650" />
   <path class="arrow" d="M1150 815 H1205" />
@@ -124,13 +125,13 @@
   <!-- Output layer -->
   <rect class="layer" x="60" y="990" width="1680" height="90" />
   <rect class="layer-head" x="60" y="990" width="270" height="90" />
-  <text class="layer-title" x="90" y="1043">4. &#x7ED3;&#x679C;&#x8F93;&#x51FA;</text>
+  <text class="layer-title" x="195" y="1043">4. &#x7ED3;&#x679C;&#x8F93;&#x51FA;</text>
   <rect class="box-blue" x="380" y="1010" width="320" height="50" />
-  <text class="box-title" x="540" y="1043" text-anchor="middle">&#x9AD8;&#x5206;&#x8FA8;&#x7387;&#x4EEA;&#x8868;&#x56FE;&#x50CF;</text>
+  <text class="box-title" x="540" y="1043">&#x9AD8;&#x5206;&#x8FA8;&#x7387;&#x4EEA;&#x8868;&#x56FE;&#x50CF;</text>
   <rect class="box-blue" x="760" y="1010" width="320" height="50" />
-  <text class="box-title" x="920" y="1043" text-anchor="middle">&#x8868;&#x76D8;&#x8BFB;&#x6570;&#x7ED3;&#x679C;</text>
+  <text class="box-title" x="920" y="1043">&#x8868;&#x76D8;&#x8BFB;&#x6570;&#x7ED3;&#x679C;</text>
   <rect class="box-blue" x="1140" y="1010" width="320" height="50" />
-  <text class="box-title" x="1300" y="1043" text-anchor="middle">&#x5DE1;&#x68C0;&#x6570;&#x636E;&#x4E0A;&#x62A5;</text>
+  <text class="box-title" x="1300" y="1043">&#x5DE1;&#x68C0;&#x6570;&#x636E;&#x4E0A;&#x62A5;</text>
 
   <path class="arrow" d="M345 910 V1035 H380" />
   <path class="arrow" d="M900 910 V1010" />
