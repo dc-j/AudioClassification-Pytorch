@@ -26,7 +26,7 @@
   </defs>
 
   <rect class="bg" x="0" y="0" width="1600" height="1100" />
-  <text class="title" x="800" y="62">&#x8F6F;&#x4EF6;&#x7B97;&#x6CD5;&#x6D41;&#x7A0B;&#x56FE;</text>
+  <text class="title" x="800" y="62">&#x7B97;&#x6CD5;&#x6D41;&#x7A0B;&#x56FE;</text>
 
   <!-- Start and control input -->
   <rect class="lane" x="90" y="100" width="1420" height="120" />
