@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1120" viewBox="0 0 1800 1120">
+  <defs>
+    <style>
+      .bg { fill: #f7f9fc; }
+      .title { fill: #123b66; font: 700 36px "Noto Sans CJK SC", "Microsoft YaHei", Arial, sans-serif; }
+      .layer-title { fill: #ffffff; font: 700 24px "Noto Sans CJK SC", "Microsoft YaHei", Arial, sans-serif; }
+      .box-title { fill: #123b66; font: 700 21px "Noto Sans CJK SC", "Microsoft YaHei", Arial, sans-serif; }
+      .box-text { fill: #26384d; font: 18px "Noto Sans CJK SC", "Microsoft YaHei", Arial, sans-serif; }
+      .small-text { fill: #26384d; font: 16px "Noto Sans CJK SC", "Microsoft YaHei", Arial, sans-serif; }
+      .note-text { fill: #42556d; font: 15px "Noto Sans CJK SC", "Microsoft YaHei", Arial, sans-serif; }
+      .layer { fill: #ffffff; stroke: #294b6d; stroke-width: 2; }
+      .layer-head { fill: #1f5d92; stroke: #1f5d92; stroke-width: 2; }
+      .box-blue { fill: #eaf3fb; stroke: #315b84; stroke-width: 2; }
+      .box-green { fill: #edf7f0; stroke: #3f7d51; stroke-width: 2; }
+      .box-yellow { fill: #fff7e6; stroke: #a06a00; stroke-width: 2; }
+      .box-purple { fill: #f3effc; stroke: #6d5799; stroke-width: 2; }
+      .box-red { fill: #fceeed; stroke: #9b4a45; stroke-width: 2; }
+      .layer-title, .box-title, .box-text, .small-text, .note-text { text-anchor: middle; }
+      .arrow { fill: none; stroke: #294b6d; stroke-width: 2.5; marker-end: url(#arrowhead); }
+      .dash { fill: none; stroke: #73849a; stroke-width: 2; stroke-dasharray: 8 6; }
+    </style>
+    <marker id="arrowhead" markerWidth="12" markerHeight="8" refX="11" refY="4" orient="auto">
+      <path d="M0,0 L12,4 L0,8 Z" fill="#294b6d" />
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1800" height="1120" />
+  <text class="title" x="900" y="62" text-anchor="middle">&#x56DB;&#x8DB3;&#x673A;&#x5668;&#x4EBA;&#x4E91;&#x53F0;&#x76F8;&#x673A;&#x4EEA;&#x8868;&#x5DE1;&#x68C0;&#x7CFB;&#x7EDF;&#x6846;&#x67B6;&#x56FE;</text>
+
+  <!-- Hardware layer -->
+  <rect class="layer" x="60" y="100" width="1680" height="235" />
+  <rect class="layer-head" x="60" y="100" width="1680" height="48" />
+  <text class="layer-title" x="900" y="132">1. &#x786C;&#x4EF6;&#x6267;&#x884C;&#x5C42;</text>
+
+  <rect class="box-blue" x="95" y="175" width="320" height="120" />
+  <text class="box-title" x="255" y="207">&#x56DB;&#x8DB3;&#x673A;&#x5668;&#x4EBA;&#x5E95;&#x76D8;</text>
+  <text class="box-text" x="255" y="240">IMU / LiDAR / &#x6DF1;&#x5EA6;&#x76F8;&#x673A;</text>
+  <text class="box-text" x="255" y="270">&#x5BFC;&#x822A;&#x3001;&#x5EFA;&#x56FE;&#x3001;&#x907F;&#x969C;</text>
+
+  <rect class="box-blue" x="470" y="175" width="320" height="120" />
+  <text class="box-title" x="630" y="207">&#x80CC;&#x90E8;&#x51CF;&#x9707;&#x8D1F;&#x8F7D;&#x5E73;&#x53F0;</text>
+  <text class="box-text" x="630" y="240">&#x7A33;&#x5B9A;&#x8D1F;&#x8F7D;</text>
+  <text class="box-text" x="630" y="270">&#x51CF;&#x5C0F;&#x632F;&#x52A8;</text>
+
+  <rect class="box-blue" x="845" y="175" width="360" height="120" />
+  <text class="box-title" x="1025" y="207">&#x4E91;&#x53F0;&#x76F8;&#x673A; PTZ</text>
+  <text class="box-text" x="1025" y="240">Pan / Tilt</text>
+  <text class="box-text" x="1025" y="270">Zoom &#x5149;&#x5B66;&#x53D8;&#x7126;</text>
+
+  <rect class="box-blue" x="1260" y="175" width="400" height="120" />
+  <text class="box-title" x="1460" y="207">GPU&#x8FB9;&#x7F18;&#x5DE5;&#x63A7;&#x673A;</text>
+  <text class="box-text" x="1460" y="240">&#x7B97;&#x6CD5;&#x8BA1;&#x7B97;</text>
+  <text class="box-text" x="1460" y="270">&#x4EE5;&#x592A;&#x7F51;&#x901A;&#x4FE1;</text>
+
+  <path class="arrow" d="M415 235 H470" />
+  <path class="arrow" d="M790 235 H845" />
+  <path class="arrow" d="M1205 235 H1260" />
+  <path class="dash" d="M1460 295 V322 H255 V295" />
+
+  <!-- Perception and control layer -->
+  <rect class="layer" x="60" y="370" width="1680" height="230" />
+  <rect class="layer-head" x="60" y="370" width="1680" height="48" />
+  <text class="layer-title" x="900" y="402">2. &#x611F;&#x77E5;&#x4E0E;&#x8FD0;&#x52A8;&#x63A7;&#x5236;&#x5C42;</text>
+
+  <rect class="box-green" x="95" y="450" width="250" height="105" />
+  <text class="box-title" x="220" y="482">&#x4E09;&#x7EF4;&#x5EFA;&#x56FE;</text>
+  <text class="small-text" x="220" y="512">&#x73AF;&#x5883;&#x611F;&#x77E5;</text>
+  <text class="small-text" x="220" y="538">&#x573A;&#x666F;&#x5EFA;&#x6A21;</text>
+
+  <rect class="box-green" x="395" y="450" width="250" height="105" />
+  <text class="box-title" x="520" y="482">&#x5168;&#x5C40;&#x8DEF;&#x5F84;&#x89C4;&#x5212;</text>
+  <text class="small-text" x="520" y="512">&#x8DEF;&#x5F84;&#x751F;&#x6210;</text>
+  <text class="small-text" x="520" y="538">&#x5DE1;&#x68C0;&#x5BFC;&#x822A;</text>
+
+  <rect class="box-green" x="695" y="450" width="250" height="105" />
+  <text class="box-title" x="820" y="482">&#x5C40;&#x90E8;&#x907F;&#x969C;</text>
+  <text class="small-text" x="820" y="512">&#x5C40;&#x90E8;&#x611F;&#x77E5;</text>
+  <text class="small-text" x="820" y="538">&#x5B89;&#x5168;&#x901A;&#x884C;</text>
+
+  <rect class="box-green" x="995" y="450" width="250" height="105" />
+  <text class="box-title" x="1120" y="482">&#x5230;&#x8FBE;&#x5DE1;&#x68C0;&#x70B9;</text>
+  <text class="small-text" x="1120" y="512">&#x6267;&#x884C;&#x505C;&#x6B65;</text>
+  <text class="small-text" x="1120" y="538">&#x4F4D;&#x59FF;&#x7A33;&#x5B9A;</text>
+
+  <rect class="box-green" x="1295" y="450" width="350" height="105" />
+  <text class="box-title" x="1470" y="482">&#x4E91;&#x53F0;&#x9884;&#x7F6E;&#x4F4D;&#x590D;&#x4F4D;</text>
+  <text class="small-text" x="1470" y="512">&#x7ECF;&#x9A8C;&#x89D2;&#x5EA6;</text>
+  <text class="small-text" x="1470" y="538">&#x5E7F;&#x89D2;&#x91C7;&#x96C6;</text>
+
+  <path class="arrow" d="M345 502 H395" />
+  <path class="arrow" d="M645 502 H695" />
+  <path class="arrow" d="M945 502 H995" />
+  <path class="arrow" d="M1245 502 H1295" />
+  <path class="arrow" d="M1470 555 V640" />
+
+  <!-- Algorithm layer -->
+  <rect class="layer" x="60" y="640" width="1680" height="320" />
+  <rect class="layer-head" x="60" y="640" width="1680" height="48" />
+  <text class="layer-title" x="900" y="672">3. &#x8F6F;&#x4EF6;&#x7B97;&#x6CD5;&#x5904;&#x7406;&#x5C42;</text>
+
+  <rect class="box-yellow" x="95" y="720" width="500" height="190" />
+  <text class="box-title" x="345" y="752">A. &#x5E7F;&#x89D2;&#x5B9A;&#x4F4D;&#x7EA0;&#x504F;</text>
+  <text class="small-text" x="345" y="788">&#x4EEA;&#x8868;&#x68C0;&#x6D4B;</text>
+  <text class="small-text" x="345" y="818">&#x50CF;&#x7D20;&#x504F;&#x5DEE;</text>
+  <text class="small-text" x="345" y="848">&#x4E91;&#x53F0;&#x8865;&#x507F;</text>
+  <text class="small-text" x="345" y="878">&#x76EE;&#x6807;&#x5C45;&#x4E2D;</text>
+
+  <rect class="box-purple" x="650" y="720" width="500" height="190" />
+  <text class="box-title" x="900" y="752">B. ROI&#x6297;&#x5E72;&#x6270;&#x805A;&#x7126;</text>
+  <text class="small-text" x="900" y="788">&#x957F;&#x7126;&#x53D8;&#x500D;</text>
+  <text class="small-text" x="900" y="818">ROI&#x8DDF;&#x8E2A;</text>
+  <text class="small-text" x="900" y="848">&#x6E05;&#x6670;&#x5EA6;&#x8BC4;&#x4EF7;</text>
+  <text class="small-text" x="900" y="878">&#x6297;&#x5E72;&#x6270;&#x641C;&#x7126;</text>
+
+  <rect class="box-red" x="1205" y="720" width="500" height="190" />
+  <text class="box-title" x="1455" y="752">C. &#x8868;&#x76D8;&#x6821;&#x6B63;&#x8BFB;&#x6570;</text>
+  <text class="small-text" x="1455" y="788">&#x900F;&#x89C6;&#x6821;&#x6B63;</text>
+  <text class="small-text" x="1455" y="818">&#x6307;&#x9488;&#x5206;&#x5272;</text>
+  <text class="small-text" x="1455" y="848">&#x76F4;&#x7EBF;&#x62DF;&#x5408;</text>
+  <text class="small-text" x="1455" y="878">&#x8BFB;&#x6570;&#x6620;&#x5C04;</text>
+
+  <path class="arrow" d="M595 815 H650" />
+  <path class="arrow" d="M1150 815 H1205" />
+
+  <!-- Output layer -->
+  <rect class="layer" x="60" y="990" width="1680" height="90" />
+  <rect class="layer-head" x="60" y="990" width="270" height="90" />
+  <text class="layer-title" x="195" y="1043">4. &#x7ED3;&#x679C;&#x8F93;&#x51FA;</text>
+  <rect class="box-blue" x="380" y="1010" width="320" height="50" />
+  <text class="box-title" x="540" y="1043">&#x9AD8;&#x5206;&#x8FA8;&#x7387;&#x4EEA;&#x8868;&#x56FE;&#x50CF;</text>
+  <rect class="box-blue" x="760" y="1010" width="320" height="50" />
+  <text class="box-title" x="920" y="1043">&#x8868;&#x76D8;&#x8BFB;&#x6570;&#x7ED3;&#x679C;</text>
+  <rect class="box-blue" x="1140" y="1010" width="320" height="50" />
+  <text class="box-title" x="1300" y="1043">&#x5DE1;&#x68C0;&#x6570;&#x636E;&#x4E0A;&#x62A5;</text>
+
+  <path class="arrow" d="M345 910 V1035 H380" />
+  <path class="arrow" d="M900 910 V1010" />
+  <path class="arrow" d="M1455 910 V970 H1300 V1010" />
+
+  <text class="note-text" x="900" y="1098" text-anchor="middle">&#x6D41;&#x7A0B;&#xFF1A;&#x5BFC;&#x822A;&#x5230;&#x70B9; -> &#x5E7F;&#x89D2;&#x7EA0;&#x504F; -> ROI&#x805A;&#x7126; -> &#x8868;&#x76D8;&#x8BFB;&#x6570;</text>
+</svg>

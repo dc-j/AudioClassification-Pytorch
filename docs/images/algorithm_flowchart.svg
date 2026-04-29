@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+  <defs>
+    <style>
+      .bg { fill: #f7f9fc; }
+      .title { fill: #123b66; font: 700 36px "Noto Sans CJK SC", "Microsoft YaHei", Arial, sans-serif; text-anchor: middle; }
+      .lane { fill: #ffffff; stroke: #294b6d; stroke-width: 2; }
+      .lane-head { fill: #1f5d92; stroke: #1f5d92; stroke-width: 2; }
+      .lane-title { fill: #ffffff; font: 700 23px "Noto Sans CJK SC", "Microsoft YaHei", Arial, sans-serif; text-anchor: middle; }
+      .box { fill: #ffffff; stroke: #315b84; stroke-width: 2; }
+      .box-blue { fill: #eaf3fb; stroke: #315b84; stroke-width: 2; }
+      .box-yellow { fill: #fff7e6; stroke: #a06a00; stroke-width: 2; }
+      .box-purple { fill: #f3effc; stroke: #6d5799; stroke-width: 2; }
+      .box-red { fill: #fceeed; stroke: #9b4a45; stroke-width: 2; }
+      .box-green { fill: #edf7f0; stroke: #3f7d51; stroke-width: 2; }
+      .text { fill: #26384d; font: 20px "Noto Sans CJK SC", "Microsoft YaHei", Arial, sans-serif; text-anchor: middle; }
+      .small { fill: #42556d; font: 17px "Noto Sans CJK SC", "Microsoft YaHei", Arial, sans-serif; text-anchor: middle; }
+      .arrow { fill: none; stroke: #294b6d; stroke-width: 2.5; marker-end: url(#arrowhead); }
+      .feedback { fill: none; stroke: #6d5799; stroke-width: 2.5; stroke-dasharray: 8 6; marker-end: url(#arrowhead-purple); }
+    </style>
+    <marker id="arrowhead" markerWidth="12" markerHeight="8" refX="11" refY="4" orient="auto">
+      <path d="M0,0 L12,4 L0,8 Z" fill="#294b6d" />
+    </marker>
+    <marker id="arrowhead-purple" markerWidth="12" markerHeight="8" refX="11" refY="4" orient="auto">
+      <path d="M0,0 L12,4 L0,8 Z" fill="#6d5799" />
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1600" height="1100" />
+  <text class="title" x="800" y="62">&#x7B97;&#x6CD5;&#x6D41;&#x7A0B;&#x56FE;</text>
+
+  <!-- Start and control input -->
+  <rect class="lane" x="90" y="100" width="1420" height="120" />
+  <rect class="lane-head" x="90" y="100" width="250" height="120" />
+  <text class="lane-title" x="215" y="153">&#x5DE1;&#x68C0;&#x89E6;&#x53D1;</text>
+  <text class="lane-title" x="215" y="185">&#x4E0E;&#x521D;&#x59CB;&#x5316;</text>
+
+  <rect class="box-blue" x="430" y="122" width="260" height="76" />
+  <text class="text" x="560" y="154">&#x5230;&#x8FBE;&#x5DE1;&#x68C0;&#x70B9;</text>
+  <text class="small" x="560" y="181">&#x505C;&#x6B65;&#x7A33;&#x5B9A;</text>
+
+  <rect class="box-blue" x="820" y="122" width="300" height="76" />
+  <text class="text" x="970" y="154">&#x4E91;&#x53F0;&#x9884;&#x7F6E;&#x4F4D;&#x590D;&#x4F4D;</text>
+  <text class="small" x="970" y="181">&#x5E7F;&#x89D2;&#x521D;&#x59CB;&#x89C6;&#x91CE;</text>
+
+  <path class="arrow" d="M690 160 H820" />
+  <path class="arrow" d="M970 198 V260" />
+
+  <!-- Module A -->
+  <rect class="lane" x="90" y="260" width="1420" height="220" />
+  <rect class="lane-head" x="90" y="260" width="250" height="220" />
+  <text class="lane-title" x="215" y="350">A. &#x5E7F;&#x89D2;&#x5B9A;&#x4F4D;</text>
+  <text class="lane-title" x="215" y="382">&#x4E91;&#x53F0;&#x7EA0;&#x504F;</text>
+
+  <rect class="box-yellow" x="390" y="298" width="220" height="80" />
+  <text class="text" x="500" y="333">&#x5E7F;&#x89D2;&#x91C7;&#x96C6;</text>
+  <text class="small" x="500" y="360">&#x5168;&#x666F;&#x56FE;&#x50CF;</text>
+
+  <rect class="box-yellow" x="680" y="298" width="220" height="80" />
+  <text class="text" x="790" y="333">&#x4EEA;&#x8868;&#x68C0;&#x6D4B;</text>
+  <text class="small" x="790" y="360">Bounding Box</text>
+
+  <rect class="box-yellow" x="970" y="298" width="220" height="80" />
+  <text class="text" x="1080" y="333">&#x50CF;&#x7D20;&#x504F;&#x5DEE;</text>
+  <text class="small" x="1080" y="360">&#x76EE;&#x6807;&#x4E2D;&#x5FC3;&#x5BF9;&#x51C6;</text>
+
+  <rect class="box-yellow" x="1260" y="298" width="220" height="80" />
+  <text class="text" x="1370" y="333">&#x4F3A;&#x670D;&#x7EA0;&#x504F;</text>
+  <text class="small" x="1370" y="360">Pan / Tilt</text>
+
+  <rect class="box-green" x="760" y="405" width="360" height="50" />
+  <text class="text" x="940" y="438">&#x76EE;&#x6807;&#x6536;&#x655B;&#x81F3;&#x5149;&#x8F74;&#x4E2D;&#x5FC3;</text>
+
+  <path class="arrow" d="M610 338 H680" />
+  <path class="arrow" d="M900 338 H970" />
+  <path class="arrow" d="M1190 338 H1260" />
+  <path class="arrow" d="M1370 378 V392 H940 V405" />
+  <path class="arrow" d="M940 455 V520" />
+
+  <!-- Module B -->
+  <rect class="lane" x="90" y="520" width="1420" height="220" />
+  <rect class="lane-head" x="90" y="520" width="250" height="220" />
+  <text class="lane-title" x="215" y="610">B. ROI&#x6297;&#x5E72;&#x6270;</text>
+  <text class="lane-title" x="215" y="642">&#x957F;&#x7126;&#x805A;&#x7126;</text>
+
+  <rect class="box-purple" x="390" y="558" width="220" height="80" />
+  <text class="text" x="500" y="593">&#x957F;&#x7126;&#x53D8;&#x500D;</text>
+  <text class="small" x="500" y="620">&#x89C6;&#x573A;&#x6536;&#x7A84;</text>
+
+  <rect class="box-purple" x="680" y="558" width="220" height="80" />
+  <text class="text" x="790" y="593">&#x52A8;&#x6001;ROI</text>
+  <text class="small" x="790" y="620">&#x9501;&#x5B9A;&#x8868;&#x76D8;</text>
+
+  <rect class="box-purple" x="970" y="558" width="220" height="80" />
+  <text class="text" x="1080" y="593">&#x6E05;&#x6670;&#x5EA6;&#x8BC4;&#x4EF7;</text>
+  <text class="small" x="1080" y="620">&#x5C40;&#x90E8;&#x53CD;&#x9988;</text>
+
+  <rect class="box-purple" x="1260" y="558" width="220" height="80" />
+  <text class="text" x="1370" y="593">&#x955C;&#x5934;&#x641C;&#x7126;</text>
+  <text class="small" x="1370" y="620">&#x6297;&#x80CC;&#x666F;&#x5E72;&#x6270;</text>
+
+  <rect class="box-green" x="760" y="665" width="360" height="50" />
+  <text class="text" x="940" y="698">&#x6E05;&#x6670;&#x957F;&#x7126;&#x4EEA;&#x8868;&#x56FE;&#x50CF;</text>
+
+  <path class="arrow" d="M610 598 H680" />
+  <path class="arrow" d="M900 598 H970" />
+  <path class="arrow" d="M1190 598 H1260" />
+  <path class="arrow" d="M1370 638 V652 H940 V665" />
+  <path class="feedback" d="M1080 558 V535 H790 V558" />
+  <path class="arrow" d="M940 715 V780" />
+
+  <!-- Module C -->
+  <rect class="lane" x="90" y="780" width="1420" height="220" />
+  <rect class="lane-head" x="90" y="780" width="250" height="220" />
+  <text class="lane-title" x="215" y="870">C. &#x8868;&#x76D8;&#x6821;&#x6B63;</text>
+  <text class="lane-title" x="215" y="902">&#x7CBE;&#x786E;&#x8BFB;&#x6570;</text>
+
+  <rect class="box-red" x="390" y="818" width="220" height="80" />
+  <text class="text" x="500" y="853">&#x7279;&#x5F81;&#x63D0;&#x53D6;</text>
+  <text class="small" x="500" y="880">&#x8FB9;&#x7F18;/&#x5173;&#x952E;&#x70B9;</text>
+
+  <rect class="box-red" x="680" y="818" width="220" height="80" />
+  <text class="text" x="790" y="853">&#x900F;&#x89C6;&#x6821;&#x6B63;</text>
+  <text class="small" x="790" y="880">Homography</text>
+
+  <rect class="box-red" x="970" y="818" width="220" height="80" />
+  <text class="text" x="1080" y="853">&#x6307;&#x9488;&#x5206;&#x5272;</text>
+  <text class="small" x="1080" y="880">&#x96F6;&#x523B;&#x5EA6;&#x5206;&#x79BB;</text>
+
+  <rect class="box-red" x="1260" y="818" width="220" height="80" />
+  <text class="text" x="1370" y="853">&#x8BFB;&#x6570;&#x6620;&#x5C04;</text>
+  <text class="small" x="1370" y="880">Hough / PCA</text>
+
+  <rect class="box-green" x="640" y="925" width="600" height="50" />
+  <text class="text" x="940" y="958">&#x8F93;&#x51FA;&#x4EEA;&#x8868;&#x8BFB;&#x6570;&#x4E0E;&#x5DE1;&#x68C0;&#x6570;&#x636E;</text>
+
+  <path class="arrow" d="M610 858 H680" />
+  <path class="arrow" d="M900 858 H970" />
+  <path class="arrow" d="M1190 858 H1260" />
+  <path class="arrow" d="M1370 898 V912 H940 V925" />
+
+  <text class="small" x="800" y="1048">&#x95ED;&#x73AF;&#x4E3B;&#x7EBF;&#xFF1A;&#x5E7F;&#x89D2;&#x5B9A;&#x4F4D; -> &#x4E91;&#x53F0;&#x7EA0;&#x504F; -> ROI&#x805A;&#x7126; -> &#x8868;&#x76D8;&#x8BFB;&#x6570;</text>
+</svg>
